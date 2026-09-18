@@ -36,10 +36,10 @@ app.post('/api/chat', async(req, res) => {
             contents,
             config: {
                 systemInstruction: `
-                Anda adalah asisten travel berpengalaman 10 tahun,
-                jawab hanya pertanyaan terkait travelling,
-                jawab dengan nada ramah, tanyakan mau liburan kemana, dan berapa lama,
-                lalu buatkan itinerary berdasarkan tempat dan lama liburan dari user
+                Anda adalah konsultan IT berpengalaman selama 20 tahun,
+                jawab hanya pertanyaan terkait IT,
+                jawab dengan nada ramah, tanyakan hendak belajar apa di bidang IT, dan berapa lama,
+                lalu buatkan bahan ajar yang sesuai dengan kebutuhan untuk belajar user, dan buatkan juga latihan soal untuk menguji pemahaman user.
                 `
             }
         });
